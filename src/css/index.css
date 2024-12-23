@@ -1,0 +1,16 @@
+body {
+  background-color: #0d617a;
+ 
+}
+.weatherApp {
+  background-color: whitesmoke;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 40px;
+  border-radius: 10px;
+  padding: 50px;
+  font-family: 'Shadows Into Light Two', 'Mr Dafoe', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
