@@ -1,6 +1,5 @@
 body {
   background-color: #0d617a;
- 
 }
 .weatherApp {
   background-color: whitesmoke;
@@ -9,8 +8,108 @@ body {
   box-shadow: 40px;
   border-radius: 10px;
   padding: 50px;
-  font-family: 'Shadows Into Light Two', 'Mr Dafoe', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Shadows Into Light Two", "Mr Dafoe", "Lucida Sans",
+    "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, sans-serif;
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
+}
+
+.searchForm {
+  border-bottom: solid lightgray 2px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#city-search-element {
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-family: "Shadows Into Light Two";
+}
+
+#city-submit-button {
+  background-color: #0d607ab7;
+  border: #0d617a;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: whitesmoke;
+  margin-left: 2px;
+  font-family: "Shadows Into Light Two";
+}
+
+section {
+  padding: 30px 0;
+}
+
+.weatherAppData {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weatherAppCityName {
+  margin: 5px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: bolder;
+  line-height: 48px;
+  color: #09495c;
+}
+
+.weatherAppCurrentConditions {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: -125px;
+  margin-top: 70px;
+  color: #09495c;
+
+}
+
+.weatherAppCurrentConditions strong {
+  color: #64088f;
+  font-weight: bolder;
+}
+
+.weatherAppCurrentTemperatureContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 10px;
+  font-size: 36px;
+  font-weight: bolder;
+  line-height: 48px;
+  color: #09495c;;
+}
+
+.weatherAppTempIcon {
+    font-size: 44px;
+}
+
+.weatherAppTempValue {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.weatherAppTempUnit {
+    font-size: 28px;
+    margin-top: -20px;
+
+}
+
+footer {
+  border-top: solid lightgray 2px;
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Mr Dafoe", "Lucinda Sans";
+  font-style: none;
+  font-size: 13px;
+  font-weight: 200;
+}
+
+footer a {
+  color: #0d607ab7;
 }

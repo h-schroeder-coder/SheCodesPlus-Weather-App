@@ -16,7 +16,7 @@
   <body>
     <div class="weatherApp">
       <header>
-        <form>
+        <form class="searchForm">
           <input
             type="search"
             placeholder="Enter a city..."
@@ -27,17 +27,33 @@
         </form>
       </header>
       <section>
-        <div>
-          <h1>City</h1>
-          <p>
-            Current conditions in //city// //Day of Week// //Time of day//,
-            //conditions//
-            <br />
-            Humidity: 100%, Wind: 100mph
-          </p>
-        </div>
-        <div>
-          <h2>🍃 34 &#8457;</h2>
+        <div class="weatherAppData">
+            <div>
+                <h1 class="weatherAppCityName">City
+                </h1>
+            </div>
+            <div>
+                <p class="weatherAppCurrentConditions">
+                    //Day of Week// //Time of day//, //conditions description//
+                    <br />
+                    Humidity: <strong>100%</strong>, Wind: <strong>100mph</strong>
+                </p>
+            </div>
+            <div 
+            class="weatherAppCurrentTemperatureContainer">
+                <span 
+                    class="weatherAppTempIcon">
+                    🍃
+                 </span> 
+                 <span 
+                    class="weatherAppTempValue">
+                    34
+                </span>
+                 <span 
+                class="weatherAppTempUnit">
+                &#8457
+                </span>
+            </div>
         </div>
       </section>
       <footer>
