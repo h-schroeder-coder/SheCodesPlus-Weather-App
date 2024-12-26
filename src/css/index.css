@@ -54,19 +54,21 @@ section {
 
 .weatherAppCityName {
   margin: 5px;
+  margin-top: 10px;
   margin-bottom: 10px;
   font-size: 40px;
   font-weight: bolder;
-  line-height: 48px;
+  line-height: 30px;
   color: #09495c;
 }
 
 .weatherAppCurrentConditions {
   font-size: 16px;
   font-weight: bold;
-  margin-left: -125px;
+  margin-left: -275px;
   margin-top: 70px;
   color: #09495c;
+  position
 
 }
 
@@ -86,7 +88,10 @@ section {
 }
 
 .weatherAppTempIcon {
-    font-size: 44px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+    margin-top: -15px;
 }
 
 .weatherAppTempValue {
