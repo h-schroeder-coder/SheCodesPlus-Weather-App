@@ -2,7 +2,7 @@ body {
   background-color: #0d617a;
 }
 .weatherApp {
-  background-color: whitesmoke;
+  background-color: rgb(241, 238, 236);
   max-width: 600px;
   margin: 50px auto;
   box-shadow: 40px;
@@ -22,7 +22,7 @@ body {
   padding-bottom: 20px;
 }
 
-#city {
+#city-name {
   background-color: lightgray;
   border: none;
   border-radius: 5px;
@@ -54,19 +54,19 @@ section {
 
 .weatherAppCityName {
   margin: 5px;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 10px;
   font-size: 40px;
   font-weight: bolder;
-  line-height: 30px;
+  line-height: 40px;
   color: #09495c;
 }
 
 .weatherAppCurrentConditions {
+  display: block;
   font-size: 16px;
-  font-weight: bold;
-  margin-left: -275px;
-  margin-top: 70px;
+  line-height: 24px;
+  margin-top: 5px;
   color: #09495c;
   position
 
@@ -79,12 +79,12 @@ section {
 
 .weatherAppCurrentTemperatureContainer {
   display: flex;
-  justify-content: flex-end;
-  margin: 30px 10px;
+  justify-content: space-between;
   font-size: 36px;
   font-weight: bolder;
   line-height: 48px;
-  color: #09495c;;
+  color: #09495c;
+  padding-top: 30px;
 }
 
 .weatherAppTempIcon {
@@ -95,7 +95,7 @@ section {
 }
 
 .weatherAppTempValue {
-    font-size: 60px;
+    font-size: 80px;
     font-weight: bold;
 }
 
