@@ -50,6 +50,7 @@ section {
 .weatherAppData {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .weatherAppCityName {
@@ -129,23 +130,22 @@ section {
   }
 
 .weather-forecast-temperatures {
-  display: flex;
-  justify-content: center;
   text-align: center;
   font-size: 16px;
   line-height: 24px;
   margin-top: 5px;
+  margin-bottom: 20px;
   color: #64088f;
 }
 
 .forecast-high-temp {
   color: #64088f;
   font-weight: bolder;
-  padding-left: 5px;
+  padding: 2px;
 }
 
 .forecast-low-temp {
-  padding-left: 15px;
+  padding: 2px;
 }
 
 footer {
